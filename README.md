@@ -41,7 +41,7 @@ npm or yarn
 ▶️ Run the Frontend
 cd frontend
 npm install
-npm start
+npm run dev
 
 📌 Build for Production
 npm run build
