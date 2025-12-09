@@ -125,9 +125,7 @@ http://localhost:8080
 
 Example:
 
-
 GET  /api/v1/users
-
 POST /api/v1/users
 PUT  /api/v1/users/{id}
 DELETE /api/v1/users/{id}
