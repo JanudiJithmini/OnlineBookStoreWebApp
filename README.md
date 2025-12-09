@@ -85,36 +85,3 @@ PUT  /api/v1/users/{id}
 DELETE /api/v1/users/{id}
 
 
-(Modify based on your project)
-
-🔗 Connecting Frontend & Backend
-Using Axios (React)
-axios.get("http://localhost:8080/api/v1/users")
-  .then(res => console.log(res.data))
-  .catch(err => console.error(err));
-
-Enable CORS in Spring Boot (if needed)
-@Bean
-public WebMvcConfigurer corsConfigurer() {
-    return new WebMvcConfigurer() {
-        @Override
-        public void addCorsMappings(CorsRegistry registry) {
-            registry.addMapping("/**")
-                .allowedOrigins("http://localhost:3000")
-                .allowedMethods("*");
-        }
-    };
-}
-
-
-
-
-
-
-
-
-
-
-Commit changes
-
-Create a Pull Request
