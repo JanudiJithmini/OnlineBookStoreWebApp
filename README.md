@@ -1,5 +1,6 @@
 📘 Full-Stack Application
 React.js Frontend + Spring Boot Backend
+
 📌 Overview
 
 This project is a full-stack web application built with:
@@ -105,43 +106,14 @@ public WebMvcConfigurer corsConfigurer() {
     };
 }
 
-🛢 Database Setup
-
-Add your database configuration in:
-
-application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/mydb
-spring.datasource.username=root
-spring.datasource.password=1234
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
 
 
-(Replace with your actual DB info.)
 
-🧪 Testing
-React Tests
-npm test
 
-Spring Boot Tests
-mvn test
 
-📦 Build Production Version
-Backend JAR Build
-mvn clean package
 
-Frontend Production Build
 
-Generated inside /frontend/build.
 
-You can configure Spring Boot to serve the React build files if needed.
-
-🤝 Contributing
-
-Fork the repo
-
-Create a feature branch
 
 Commit changes
 
