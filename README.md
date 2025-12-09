@@ -25,7 +25,7 @@ project-root/
 
 │
 ├── backend/ 
-# Spring Boot project
+
 
 │   ├── src/
 
