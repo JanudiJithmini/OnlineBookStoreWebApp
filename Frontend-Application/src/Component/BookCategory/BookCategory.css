@@ -1,0 +1,134 @@
+
+.Category-page {
+  padding: 20px;
+  margin-left: 300px; 
+  background-image: url('bg0.jpg');
+  min-height: 100vh;
+  
+}
+
+
+.category-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-dropdown label {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(133, 133, 239);
+  margin-right: 10px; /* Space between label and dropdown */
+}
+
+.category-dropdown select {
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.category-dropdown select:hover {
+  border-color: #888;
+}
+
+/* Book Section */
+.book-section {
+  margin-bottom: 30px; 
+  margin-left: 10px;
+}
+/* Book List Container */
+.book-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; /* Adjusts width dynamically */
+  margin-left: 10px;
+  
+  
+}
+
+/* Book Sections */
+.book-section {
+  margin-bottom: 30px;
+  text-align: left;
+  
+}
+
+.book-section h2 {
+  font-size: 22px;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  color: yellow;
+}
+
+/* Book List */
+.book-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+
+/* Book Card */
+.book-card {
+  position: relative;
+  width: 140px;
+  text-align: center;
+  background-color: rgba(20, 20, 50, 0.9);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  color: aliceblue;
+  font-style: italic;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Discount Label */
+.book-card .discount {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  padding: 3px 5px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+  .category-dropdown {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .category-dropdown label {
+      margin-bottom: 5px;
+  }
+
+  .book-list {
+      justify-content: center;
+  }
+
+  .book-card {
+      width: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .book-card {
+      width: 100px;
+  }
+}

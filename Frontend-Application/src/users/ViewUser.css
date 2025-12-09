@@ -1,0 +1,66 @@
+.viewuser-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 600px;
+}
+
+.viewuser-card {
+  background-color: #0a0909;
+  padding: 30px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.viewuser-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-details-card {
+  background: #080707;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.user-details-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.user-details-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-details-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-details-list li b {
+  width: 90px;
+  display: inline-block;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

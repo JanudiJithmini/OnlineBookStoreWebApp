@@ -1,0 +1,57 @@
+.full {
+    background-image: url('serene-library-cafe-stockcake.jpg'); /* Ensure correct path */
+    background-size: auto;  /* Keeps original size for tiling */
+    background-position: top; /* Aligns the first image to the top */
+    background-repeat: repeat; /* Enables tiling */
+    height: 105vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 117px;
+    padding-bottom: 10px;
+}  
+.signup-container {
+    background: rgb(9, 9, 9);
+    padding-left: 20px;
+    width: 500px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .signup-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background: gray;
+    color: black;
+    font-weight: bold;
+    border: none;
+  }
+  
+  .signup-container button:hover {
+    background: lightgray;
+  }
+  .login-link {
+    color: blue;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,93 @@
+.checkout-container {
+    width: 600px;
+    margin: 5px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 500px;
+    background-image: url('serene-library-cafe-stockcake.jpg');
+    
+
+  }
+  .order-summary {
+    background-color: rgb(14, 13, 13);
+    border-radius: 5px; /* Keep one border-radius declaration */
+    padding: 10px 10px; /* Adds spacing inside the box */
+    color: rgb(244, 237, 237); /* Ensures text is readable */
+    text-align: center; /* Centers text inside */
+  
+    /* Centering */
+    display: block; /* Ensures it takes full width */
+    width: fit-content; /* Adjusts width to fit content */
+    margin: 0 auto; /* Centers horizontally */
+  }
+  .order-summary h2 {
+    color: #dc8e07;
+  }
+
+  
+  
+  h2 {
+    background-color: rgb(14, 13, 13);
+    color: #f3f4f1;
+    font-size: x-large;
+    text-align: center;
+    display:block; /* Ensures it takes full width */
+    width: fit-content; /* Adjusts width to fit content */
+    margin: 20px auto; /* Centers horizontally */
+    border-radius: 6px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;  
+  }
+  .title{
+    color: #eeeeee;
+    font-size: xx-large;
+    background-color: #47320e;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  
+  
+  
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-form input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .checkout-form .multi-fields{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .confirm-btn {
+    padding: 12px;
+    background-color: #a96d12;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  
+  .confirm-btn:hover {
+    background-color: #218838;
+  }
+  .order-summary{
+    align-items: center;
+  }
+  

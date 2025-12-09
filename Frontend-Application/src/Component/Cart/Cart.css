@@ -1,0 +1,90 @@
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('cozy-bookstore-exterior-stockcake.png');
+    
+  }
+  
+  .book-details {
+    top: 0px;
+    right: 0px;
+    display: flex;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(230, 238, 238, 0.5); /* Cyan glowing blur */
+    backdrop-filter: blur(15px); /* Blur effect */
+    transition: transform 0.3s ease-in-out;
+    color: aliceblue;
+    font-style: italic;
+    font-size: medium;
+}
+
+  
+  .book-image {
+    position: relative;
+  }
+  
+  .book-image img {
+    width: 200px;
+    border-radius: 8px;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    background-color: #eb2727;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 20px;
+    backdrop-filter: blur(15px)
+  }
+  
+  .book-info {
+    margin-left: 20px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .discounted-price {
+    color: #00ff99;
+    font-size: 22px;
+    font-weight: italic;
+    margin-right: 10px;
+  }
+  
+  .add-to-cart {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #f8f7f7;
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: rgb(215, 206, 24);
+    padding: 10px 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+  }
